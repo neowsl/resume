@@ -6,7 +6,7 @@
 
   set page(paper: "us-letter", margin: (x: 0.5in, y: 0.5in))
 
-  set text(size: 10pt, font: "New Computer Modern")
+  set text(size: 9pt, font: "New Computer Modern")
 
   body
 }
@@ -45,7 +45,8 @@
 
 #let edu_item(
   name: "Sample University",
-  degree: "B.S in Bullshit",
+  degree: "B.S in Computer Science",
+  coursework: "Python, Java",
   location: "Foo, BA",
   date: "Aug. 1600 - May 1750",
 ) = {
@@ -54,7 +55,8 @@
     columns: (3fr, 1fr),
     align(left)[
       *#name* \
-      _#degree _
+      _#degree _ \
+      #coursework
     ],
     align(right)[
       #location \
