@@ -1,6 +1,6 @@
 #let resume(body) = {
   set list(indent: 1em)
-  show list: set text(size: 0.92em)
+  show list: set text(size: 0.9em)
   show link: underline
   show link: set underline(offset: 3pt)
 

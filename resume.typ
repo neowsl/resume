@@ -56,16 +56,16 @@
   [Spearheaded development of 3D work instruction platform (TypeScript React, Three.js, C\# ASP.NET); accelerated 4-month project to MVP in under 3 weeks, enabling early user testing],
   [Boosted HCI accessibility and efficiency by 37% through UI/UX redesign, authoring mixed-methods UX research report to inform future improvements],
   [Integrated Go + PostgreSQL backend services and embedded Lua scripting for real-time rendering, and automated builds and tests with Jenkins + Docker CI/CD pipelines],
-  [Collaborated with product line, test engineering, and manufacturing teams to align technical solutions with end-user needs.],
+  [Collaborated with product line, test engineering, and manufacturing teams to align technical solutions with end-user needs],
 )
 #exp_item(
   role: "Teaching Assistant: CSE 12x",
-  name: "University of Washington",
+  name: "University of Washington, Paul G. Allen School of Computer Science & Engineering",
   location: "Seattle, WA",
   date: "Jan. 2026 - Present",
-  [Serve as Teaching Assistant for introductory programming, teaching weekly sections for 22 students],
-  [Lead development of interactive demo websites (Python, SvelteKit) to translate abstract CS concepts into intuitive, real-time visualizations],
-  [Host office hours and provide individualized support on programming assignments],
+  [Mentored 22 students in Java fundamentals and data structures, achieving a 4.8/5.0 student evaluation score and maintaining 86% attendance by facilitating biweekly tutorial sections and hosting 1-on-1 office hours],
+  [Architected interactive learning tools (SvelteKit, Python) to model Maps, Stacks, and Queues, bridging the gap between theoretical ADT definitions and real-world use cases],
+  [Automated stylistic code reviews to optimize grading efficiency by 8% for staff of 30+ TAs by developing AST-based static analysis rules for an internal Java linter],
 )
 #exp_item(
   role: "Educational Computer Science YouTube Channel",
