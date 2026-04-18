@@ -18,17 +18,17 @@
   degree: "Bachelor of Science in Computer Science (4.0 GPA)",
   coursework: "Data Structures and Algorithms, Object-Oriented Programming, Digital Logic, C/C++, Java",
   location: "Seattle, WA",
-  date: "Sep. 2025 - June 2027",
+  date: "Sep. 2025 - June 2028",
 )
 
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Haskell, TypeScript, Go, Rust, C, C++, Python, Lua, C#, Java, Verilog, SQL, Typst",
+  skills: "TypeScript, Java, Rust, C, C++, Python, Lua, Go, C#, Verilog, SQL, Haskell, Typst",
 )
 #skill_item(
   category: "Libraries/Frameworks",
-  skills: "PyTorch, OpenCV, Detectron2, React, Svelte, Flutter, Express.js, FastAPI, ASP.NET, Unity, Godot",
+  skills: "PyTorch, OpenCV, Detectron2, React, Svelte, Flutter, Express.js, ASP.NET, Unity, Godot",
 )
 #skill_item(
   category: "Developer Tools",
@@ -37,25 +37,24 @@
 
 #resume_heading[Experience]
 #exp_item(
-  role: "Lead AI Engineer",
+  role: "Machine Learning Engineer",
   name: "Schweitzer Engineering Laboratories (Internship)",
   location: "Pullman, WA",
   date: "May 2024 - Sep. 2025",
-  [Reduced defect risk for 300K+ electronic devices annually with 98.8% AP using AI-driven quality-control image processing software (PyTorch, OpenCV, Detectron2)],
-  [Reduced streaming service latency by 36% with multithreaded design (UDP, FFmpeg)],
-  [Optimized computational throughput by 95% by designing innovative image calibration/segmentation techniques],
-  [Led and mentored 4 interns, improving code quality and team efficiency through task assignments, code reviews, and Agile ceremonies (sprint planning, retros)],
-  [Contributed 400+ commits and 10K lines of production code, emphasizing scalability and maintainability across systems],
-  [Sole high school engineer at a 7,000+ employee company; earned full development responsibilities and presented weekly technical demos to company executives and VPs],
+  [Directed and mentored sub-team of 4 interns in Agile environment, overseeing code reviews and system design to ensure high scalability and maintainability across 10K+ lines of production code],
+  [Reduced defect risk for 300K+ electronic devices annually with 95% AP using AI-driven quality-control image processing software (PyTorch, OpenCV, Detectron2)],
+  [Decreased streaming service latency by 36% with multithreaded design (UDP, FFmpeg)],
+  [Boosted throughput by 95% via image segmentation techniques (SIFT), transforming choppy 0.2-FPS process into smooth 30-FPS streaming],
+  [Owned full development lifecycle for enterprise software; independently architected system features and delivered weekly technical milestones/demos to executive leadership (VPs)],
 )
 #exp_item(
-  role: "Lead UX Designer/Researcher",
+  role: "Fullstack Software Engineer",
   name: "Schweitzer Engineering Laboratories (Internship)",
   location: "Pullman, WA",
   date: "May 2024 - Sep. 2025",
   [Spearheaded development of 3D work instruction platform (TypeScript React, Three.js, C\# ASP.NET); accelerated 4-month project to MVP in under 3 weeks, enabling early user testing],
   [Boosted HCI accessibility and efficiency by 37% through UI/UX redesign, authoring mixed-methods UX research report to inform future improvements],
-  [Integrated Go + PostgreSQL backend services and embedded Lua scripting for real-time rendering, and automated builds and tests with Jenkins + Docker CI/CD pipelines],
+  [Integrated Go + PostgreSQL backend services and embedded Lua scripting for real-time rendering; automated builds and tests with Jenkins + Docker CI/CD pipelines],
   [Collaborated with product line, test engineering, and manufacturing teams to align technical solutions with end-user needs],
 )
 #exp_item(
@@ -63,9 +62,9 @@
   name: "University of Washington, Paul G. Allen School of Computer Science & Engineering",
   location: "Seattle, WA",
   date: "Jan. 2026 - Present",
-  [Mentored 22 students in Java fundamentals and data structures, achieving a 4.8/5.0 student evaluation score and maintaining 86% attendance by facilitating biweekly tutorial sections and hosting 1-on-1 office hours],
-  [Architected interactive learning tools (SvelteKit, Python) to model Maps, Stacks, and Queues, bridging the gap between theoretical ADT definitions and real-world use cases],
-  [Automated stylistic code reviews to optimize grading efficiency by 8% for staff of 30+ TAs by developing AST-based static analysis rules for an internal Java linter],
+  [Mentored 39 students in Java fundamentals and data structures, achieving a 4.8/5.0 student evaluation score and maintaining 86% attendance by facilitating biweekly tutorial sections and hosting 1-on-1 office hours],
+  [Architected interactive SvelteKit/Python tools to visualize Map, Stack, and Queue ADTs, and authored exam questions for 350+ students],
+  [Automated stylistic code reviews to optimize grading efficiency by 8% for staff of 80+ TAs by developing AST-based static analysis rules for an internal Java linter],
 )
 #exp_item(
   role: "Educational Computer Science YouTube Channel",
