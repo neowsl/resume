@@ -48,7 +48,7 @@
   [Owned full development lifecycle for enterprise software; independently architected system features and delivered weekly technical milestones/demos to executive leadership (VPs)],
 )
 #exp_item(
-  role: "Fullstack Software Engineer",
+  role: "Full Stack Software Engineer",
   name: "Schweitzer Engineering Laboratories (Internship)",
   location: "Pullman, WA",
   date: "May 2024 - Sep. 2025",
