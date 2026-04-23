@@ -94,17 +94,23 @@
   date: "Nov. 2025",
 )
 #project_item(
+  name: "Gossip Glomers",
+  skills: "Distributed Systems, Go, Jepsen",
+  date: "Apr. 2026",
+  [Engineered high-availability distributed services in Go, implementing Snowflake-based unique ID generation and fault-tolerant broadcast protocols utilizing batching and jittered exponential backoff to mitigate network partitions],
+)
+#project_item(
   name: "Amethyst: WSU CrimsonCode Hackathon Winner",
   skills: "TypeScript, Svelte, Tailwind, tRPC, PostgreSQL",
   date: "Feb. 2024",
   [In 24 hours, developed full-stack social media app with follower networks, recommendations, and Google Gemini integration],
 )
-#project_item(
-  name: "沙漠 (SHAMO-256)",
-  skills: "Godot",
-  date: "May 2025",
-  [Built interactive 3D first-person visualization of SHA-256 hashing with custom chunk-loading algorithms, enabling virtually infinite real-time exploration of unbounded data landscapes],
-)
+// #project_item(
+//   name: "沙漠 (SHAMO-256)",
+//   skills: "Godot",
+//   date: "May 2025",
+//   [Built interactive 3D first-person visualization of SHA-256 hashing with custom chunk-loading algorithms, enabling virtually infinite real-time exploration of unbounded data landscapes],
+// )
 #project_item(
   name: "Top 5% Meta Hacker Cup",
   skills: "C++, Competitive Programming",
