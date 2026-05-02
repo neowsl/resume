@@ -32,7 +32,7 @@
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux, NixOS, Neovim, Git, Docker, Jenkins, Confluence + Jira, Obsidian Notes, Lightroom + Photoshop",
+  skills: "Linux (NixOS), Neovim/Emacs, Git, AI-Augmented Development (LLM Integration), Docker, Jenkins, Jira, Obsidian, Adobe Creative Suite",
 )
 
 #resume_heading[Experience]
