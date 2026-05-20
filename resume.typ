@@ -7,9 +7,9 @@
 #header(
   name: "Neal Wang",
   phone: "509-592-1822",
-  email: "nealwang.sh@protonmail.com",
+  email: "me@nealwang.dev",
   linkedin: "linkedin.com/in/nealwang-sh",
-  site: "neowsl.github.io",
+  site: "nealwang.dev",
 )
 
 #resume_heading[Education]
@@ -32,7 +32,7 @@
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux (NixOS), Neovim/Emacs, Git, AI-Augmented Development (LLM Integration), Docker, Jenkins, Jira, Obsidian, Adobe Creative Suite",
+  skills: "Linux (NixOS), Neovim/Emacs, Git, AI-Augmented Development (LLM Integration), Docker, Jenkins, Jira, Obsidian, Adobe",
 )
 
 #resume_heading[Experience]
@@ -64,17 +64,25 @@
   date: "Jan. 2026 - Present",
   [Mentored 39 students in Java fundamentals and data structures, achieving a 4.8/5.0 student evaluation score and maintaining 86% attendance by facilitating biweekly tutorial sections and hosting 1-on-1 office hours],
   [Architected interactive SvelteKit/Python tools to visualize Map, Stack, and Queue ADTs, and authored exam questions for 350+ students],
-  [Automated stylistic code reviews to optimize grading efficiency by 8% for staff of 80+ TAs by developing AST-based static analysis rules for an internal Java linter],
+  [Optimized grading efficiency by 8% for staff of 90+ TAs by developing JUnit-integrated static analysis rules; engineered AST-based checks to validate stylistic compliance for an internal Java linter],
 )
 #exp_item(
   role: "Educational Computer Science YouTube Channel",
-  name: "youtube.com/@neowsl",
+  name: link("https://youtube.com/@neowsl")[youtube.com/\@neowsl],
   location: "YouTube",
   date: "May 2021 - Present",
   [1.3K subscribers, 77 videos, 100K views, YouTube Partner Program],
 )
 
 #resume_heading("Projects and Awards")
+#project_item(
+  name: "Maelstrom Matrix",
+  url: "nealwang.dev/maelstrom-matrix",
+  skills: "Distributed Systems, Go, Jepsen",
+  date: "Apr. 2026 - May 2026",
+  [Engineered highly-available idempotent Go network layer that mitigated network partitions via jittered exponential backoff and message batching, optimizing throughput to 8.63 messages/operation under Jepsen test suites],
+  [Bypassed sequential consistency bottlenecks on CRDT counter by using localized tracking and token barriers to eliminate network contention],
+)
 #project_item(
   name: "Gerrywandering: US Congressional App Challenge Winner",
   skills: "Rust, Nannou",
@@ -92,12 +100,6 @@
   name: "Washington ICPC Bronze Medalist",
   skills: "C++, Java, Competitive Programming",
   date: "Nov. 2025",
-)
-#project_item(
-  name: "Gossip Glomers",
-  skills: "Distributed Systems, Go, Jepsen",
-  date: "Apr. 2026",
-  [Engineered high-availability distributed services in Go, implementing Snowflake-based unique ID generation and fault-tolerant broadcast protocols utilizing batching and jittered exponential backoff to mitigate network partitions],
 )
 #project_item(
   name: "Amethyst: WSU CrimsonCode Hackathon Winner",

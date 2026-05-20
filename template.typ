@@ -20,15 +20,15 @@
   name: "Jake Ryan",
   phone: "123-456-7890",
   email: "jake@su.edu",
-  linkedin: "linkedin.com/in/jake",
   site: "github.com/jake",
+  linkedin: "linkedin.com/in/jake",
 ) = {
   align(center, block[
     #name_header(name) \
     #phone |
     #link("mailto:" + email)[#email] |
-    #link("https://" + linkedin)[#linkedin] |
-    #link("https://" + site)[#site]
+    #link("https://" + site)[#site] |
+    #link("https://" + linkedin)[#linkedin]
   ])
   v(5pt)
 }
@@ -91,13 +91,18 @@
 
 #let project_item(
   name: "Example Project",
+  url: none,
   skills: "Programming Language 1, Database3",
   date: "May 1234 - June 4321",
   ..points,
 ) = {
   set block(above: 0.7em, below: 1em)
   pad(left: 1em, right: 0.5em, box[
-    *#name* | _#skills _ #h(1fr) #date
+    *#name* |
+    #if url != none [
+      #link("https://" + url)[#url] |
+    ]
+    _#skills _ #h(1fr) #date
     #list(..points)
   ])
 }
