@@ -21,7 +21,7 @@
   date: "Sep. 2025 - June 2028",
 )
 
-#resume_heading("Technical Skills")
+#resume_heading[Technical Skills]
 #skill_item(
   category: "Languages",
   skills: "TypeScript, Java, Rust, C, C++, Python, Lua, Go, C#, Verilog, SQL, Haskell, Typst",
@@ -32,10 +32,16 @@
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux (NixOS), Neovim/Emacs, Git, AI-Augmented Development (LLM Integration), Docker, Jenkins, Jira, Obsidian, Adobe",
+  skills: "Linux (NixOS), Neovim, Git, AI-Augmented Development (LLM Integration), Docker, Jenkins, Jira, Obsidian, Adobe",
 )
 
 #resume_heading[Experience]
+#exp_item(
+  role: "Incoming Data Engineer",
+  name: "Amazon (Internship)",
+  location: "Seattle, WA",
+  date: "Sep. 2026 - Dec. 2026",
+)
 #exp_item(
   role: "Machine Learning Engineer",
   name: "Schweitzer Engineering Laboratories (Internship)",
@@ -43,9 +49,9 @@
   date: "May 2024 - Sep. 2025",
   [Directed and mentored sub-team of 4 interns in Agile environment, overseeing code reviews and system design to ensure high scalability and maintainability across 10K+ lines of production code],
   [Reduced defect risk for 300K+ electronic devices annually with 95% AP using AI-driven quality-control image processing software (PyTorch, OpenCV, Detectron2)],
-  [Decreased streaming service latency by 36% with multithreaded design (UDP, FFmpeg)],
-  [Boosted throughput by 95% via image segmentation techniques (SIFT), transforming choppy 0.2-FPS process into smooth 30-FPS streaming],
-  [Owned full development lifecycle for enterprise software; independently architected system features and delivered weekly technical milestones/demos to executive leadership (VPs)],
+  [Decreased streaming service latency by 36% with multithreaded design (FFmpeg)],
+  [Reduced data ingress volume by 95% via deterministic ROI extraction, transforming choppy 0.2-FPS process into smooth 30-FPS streaming],
+  [Owned full development lifecycle for enterprise software; delivered weekly technical milestones/demos to executive leadership (VPs)],
 )
 #exp_item(
   role: "Full Stack Software Engineer",
@@ -53,7 +59,7 @@
   location: "Pullman, WA",
   date: "May 2024 - Sep. 2025",
   [Spearheaded development of 3D work instruction platform (TypeScript React, Three.js, C\# ASP.NET); accelerated 4-month project to MVP in under 3 weeks, enabling early user testing],
-  [Boosted HCI accessibility and efficiency by 37% through UI/UX redesign, authoring mixed-methods UX research report to inform future improvements],
+  [Boosted HCI accessibility and efficiency by 37% through UI/UX redesign, authoring UX research report to inform future improvements],
   [Integrated Go + PostgreSQL backend services and embedded Lua scripting for real-time rendering; automated builds and tests with Jenkins + Docker CI/CD pipelines],
   [Collaborated with product line, test engineering, and manufacturing teams to align technical solutions with end-user needs],
 )
@@ -74,14 +80,15 @@
   [1.3K subscribers, 77 videos, 100K views, YouTube Partner Program],
 )
 
-#resume_heading("Projects and Awards")
+#resume_heading[Projects and Awards]
 #project_item(
   name: "Maelstrom Matrix",
   url: "nealwang.dev/maelstrom-matrix",
   skills: "Distributed Systems, Go, Jepsen",
   date: "Apr. 2026 - May 2026",
-  [Engineered highly-available idempotent Go network layer that mitigated network partitions via jittered exponential backoff and message batching, optimizing throughput to 8.63 messages/operation under Jepsen test suites],
-  [Bypassed sequential consistency bottlenecks on CRDT counter by using localized tracking and token barriers to eliminate network contention],
+  [Engineered distributed systems framework in Go, implementing Snowflake-style ID generation, fault-tolerant gossip, state-based CRDT counters, and a partitioned Kafka-like log using atomic CAS operations and Lamport ordering],
+  [Prevented thundering herd network congestion following partition heals, sustaining 100% availability across 2,000+ Jepsen ops and bounding server gossip to 8.3 msgs/op via jittered exponential backoff],
+  [Eliminated Compare-And-Swap (CAS) write contention on distributed logs, dropping RPC overhead to 1.39 msgs/op at 99.96% availability using scatter-gather key sharding],
 )
 #project_item(
   name: "Gerrywandering: US Congressional App Challenge Winner",
@@ -107,12 +114,6 @@
   date: "Feb. 2024",
   [In 24 hours, developed full-stack social media app with follower networks, recommendations, and Google Gemini integration],
 )
-// #project_item(
-//   name: "沙漠 (SHAMO-256)",
-//   skills: "Godot",
-//   date: "May 2025",
-//   [Built interactive 3D first-person visualization of SHA-256 hashing with custom chunk-loading algorithms, enabling virtually infinite real-time exploration of unbounded data landscapes],
-// )
 #project_item(
   name: "Top 5% Meta Hacker Cup",
   skills: "C++, Competitive Programming",

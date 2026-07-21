@@ -30,7 +30,7 @@
     #link("https://" + site)[#site] |
     #link("https://" + linkedin)[#linkedin]
   ])
-  v(5pt)
+  v(3pt)
 }
 
 #let resume_heading(txt) = {
@@ -50,7 +50,7 @@
   location: "Foo, BA",
   date: "Aug. 1600 - May 1750",
 ) = {
-  set block(above: 0.7em, below: 1em)
+  set block(above: 0.7em, below: 0.8em)
   pad(left: 1em, right: 0.5em, grid(
     columns: (3fr, 1fr),
     align(left)[
@@ -72,7 +72,7 @@
   location: "Foo, BA",
   ..points,
 ) = {
-  set block(above: 0.7em, below: 1em)
+  set block(above: 0.7em, below: 0.8em)
   pad(left: 1em, right: 0.5em, box[
     #grid(
       columns: (3fr, 1fr),
@@ -96,7 +96,7 @@
   date: "May 1234 - June 4321",
   ..points,
 ) = {
-  set block(above: 0.7em, below: 1em)
+  set block(above: 0.7em, below: 0.8em)
   pad(left: 1em, right: 0.5em, box[
     *#name* |
     #if url != none [
@@ -112,6 +112,6 @@
   skills: "Balling, Yoga, Valorant",
 ) = {
   set block(above: 0.7em)
-  set text(size: 0.91em)
+  set text(size: 0.9em)
   pad(left: 1em, right: 0.5em, block[*#category*: #skills])
 }
