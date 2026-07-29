@@ -83,7 +83,7 @@
 #resume_heading[Projects and Awards]
 #project_item(
   name: "Maelstrom Matrix",
-  url: "nealwang.dev/maelstrom-matrix",
+  url: "maelstrom.nealwang.dev",
   skills: "Distributed Systems, Go, Jepsen",
   date: "Apr. 2026 - May 2026",
   [Engineered distributed systems framework in Go, implementing Snowflake-style ID generation, fault-tolerant gossip, state-based CRDT counters, and a partitioned Kafka-like log using atomic CAS operations and Lamport ordering],
